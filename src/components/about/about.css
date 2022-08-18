@@ -1,0 +1,174 @@
+.about {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+   
+}
+.about-left {
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.text {
+    color: black;
+  display: flex;
+   
+}
+a:hover {
+    text-decoration: none;
+}
+.about-right {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    position: relative;
+    
+}
+.bg {
+    background-color: gray;
+    height: 90%;
+    width: 55%;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    z-index: 1;
+    border-radius: 30px;
+    
+
+}
+.about-img {
+    border-radius: 30px;
+    width: 80%;
+    height: 85%;
+    margin-left: 95px;
+  
+}
+.about-card {
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.about-title {
+    font-weight: 600;
+
+}
+.about-subtitle {
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 1.1rem;
+
+}
+.about-description {
+    font-weight: 300;
+    font-size: 1rem;
+}
+@media(max-width: 1024px){
+    .bg{
+        height: 55%;
+        width: 65%;
+        margin-left: 1px;
+    }
+    .about-img {
+        
+        width: 30vw;
+        height: 55%;
+        margin-left: 55px;
+      
+    }
+    .about-right{
+       bottom: 20px;
+        right: 40px;
+        left: 0;
+    }
+    
+    .about-left{
+        margin-top: 140px;
+       margin-right: 20px;
+    }
+    .about-card{
+        overflow: visible;
+    }
+    
+}
+
+@media(max-width: 768px){
+    .bg{
+        height: 55%;
+        width: 65%;
+        margin-left: 1px;
+    }
+    .about-img {
+        
+        width: 30vw;
+        height: 55%;
+        margin-left: 55px;
+      
+    }
+    .about-right{
+        margin-left: 50px;
+        
+    }
+    .about-left{
+        margin-top: 100px;
+       
+    }
+    .about-card{
+        overflow: visible;
+    }
+}
+@media(max-width: 425px){
+    .about {
+        display: flex;
+        flex-direction: column;
+       padding: 30px;
+        
+     }
+    .about-card{
+        height: 110%;
+        padding-top: 40px;
+        width: 70%;
+        left: 50px;
+       
+    }
+  
+    
+    .about-right{
+        margin: 0 20px;
+        
+    }
+    .about-left{
+        right: 70px;
+        bottom: 130px;
+        
+    }
+    .bg {
+        background-color: gray;
+        height: 90%;
+        width: 55%;
+        position: absolute;
+        top: 50px;
+        left: 150px;
+        z-index: 1;
+        border-radius: 30px;
+        
+    
+    }
+    .about-img {
+        border-radius: 30px;
+        width: 80%;
+        height: 95%;
+       
+      
+    }
+    
+    
+   
+}

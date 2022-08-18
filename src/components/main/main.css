@@ -1,0 +1,133 @@
+.main {
+    
+    display: flex;
+    height: 100vh;
+   
+    padding-top: 100px;
+    
+}
+.desc{
+    font-size: 1.1rem;
+}
+.item{
+    font-size: 1.5rem;
+}
+.intro-img{
+    width: 20.5rem;
+
+
+}
+
+
+.main-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.main-right {
+    flex: 1;
+    position: relative;
+    
+    -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+background-color: grey;
+height: 80%;
+top: 70px;
+
+}
+.main-left-wrapper {
+    padding: 50px;
+    height: 50%;
+    width: 90%;
+    
+}
+.main-intro{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+.main-name {
+    font-size: 3.3rem;
+    display: flex;
+}
+.main-title {
+    height: 50px;
+    overflow: hidden;
+}
+.main-title-wrapper {
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+@keyframes move {
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px); 
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+    
+}
+.item {
+    height: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+    color: brown;
+}
+.desc {
+   font-size: 1.1rem;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:1024px){
+    
+    .main-right {
+        flex: 1;
+        position: relative;
+        -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    clip-path: polygon(50% 10%, 90% 50%, 50% 90%, 10% 50%);
+    background-color: grey;
+    height: 85%;
+    top: 90px;
+     }
+     .main-right{
+         right: 20px;
+     }
+       
+}
+
+@media(max-width: 768px){
+   
+    .main-right {
+     flex: 1;
+     position: relative;
+     -webkit-clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+ clip-path: polygon(50% 0%, 95% 50%, 50% 100%, 0% 50%);
+ background-color: grey;
+ height: 85%;
+ top: 90px;   
+ }   
+ }
+ 
+ 
+@media (max-width:425px) {
+   .main-right{
+       display: none;
+    }
+    .main{
+        padding-top: 2px;
+    }
+    .main-intro{
+        padding-top: 5px;
+    }
+}
