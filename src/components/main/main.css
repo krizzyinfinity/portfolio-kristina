@@ -4,7 +4,7 @@
     height: 100vh;
    
     padding-top: 100px;
-    
+    margin-bottom: 150px;
 }
 .desc{
     font-size: 1.1rem;
@@ -24,7 +24,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
- 
+
 }
 
 .main-right {
@@ -103,6 +103,9 @@ top: 70px;
      .main-right{
          right: 20px;
      }
+     .main-left {
+        margin-bottom: 400px;
+     }
        
 }
 
@@ -116,7 +119,10 @@ top: 70px;
  background-color: grey;
  height: 85%;
  top: 90px;   
- }   
+ } 
+ .main-left {
+    margin-bottom: 400px;
+ }  
  }
  
  
@@ -126,8 +132,12 @@ top: 70px;
     }
     .main{
         padding-top: 2px;
+        
     }
     .main-intro{
         padding-top: 5px;
     }
+    .main-left {
+        margin-bottom: 400px;
+     }
 }
