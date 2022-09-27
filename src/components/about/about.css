@@ -2,6 +2,9 @@
     height: 100vh;
     display: flex;
     align-items: center;
+    
+        margin-bottom: 100px;
+  
    
 }
 .about-left {
@@ -131,6 +134,7 @@ a:hover {
        padding: 30px;
         
      }
+     
     .about-card{
         height: 110%;
         padding-top: 40px;

@@ -130,6 +130,9 @@ top: 70px;
    .main-right{
        display: none;
     }
+    .main-name {
+        font-size: 30px;
+    }
     .main{
         padding-top: 2px;
         
