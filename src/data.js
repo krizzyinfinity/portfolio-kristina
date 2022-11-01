@@ -2,8 +2,9 @@ import Img5 from '../src/img/screenshot.png'
 import Img6 from "../src/img/screenshot2.png"
 import Img7 from "../src/img/screenshot3.png"
 import Img8 from "../src/img/screenshot4.png"
-import Img9 from "../src/img/screenshot5.png"
+import NaturaInsula from "../src/img/naturaInsula.png"
 import Img10 from "../src/img/screenshot6.png"
+import Dekoracije from "../src/img/dekoracije.png"
 export const products = [
     {
       id: 1,
@@ -12,26 +13,32 @@ export const products = [
     },
     {
       id: 2,
+      img: NaturaInsula,
+      link: "https://natura-insula-prl54kvkb-krizzyinfinity.vercel.app/",
+    },
+    {
+      id: 3,
+      img: Dekoracije,
+      link: "https://martina-dekoracije-8gogusxyy-krizzyinfinity.vercel.app/",
+    },
+    {
+      id: 4,
       img: Img6,
       link: "https://react-movie1.netlify.app/",
     },
     {
-      id: 3,
+      id: 5,
       img: Img7,
       link: "https://my-travel-buddy.netlify.app/",
     },
     {
-      id: 4,
+      id: 6,
       img: Img8,
       link: "https://fitness-world-13.netlify.app/",
     },
+    
     {
-      id: 5,
-      img: Img9,
-      link: "https://knowledgeable.netlify.app/",
-    },
-    {
-      id: 6,
+      id: 7,
       img: Img10,
       link: "https://real-estate-world-h20kfo0rm-krizzyinfinity.vercel.app/",
     },
