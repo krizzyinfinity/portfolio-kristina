@@ -14,7 +14,7 @@ export const products = [
     {
       id: 2,
       img: NaturaInsula,
-      link: "https://natura-insula-kgpm0i1s7-krizzyinfinity.vercel.app/",
+      link: "https://natura-insula-fo2g0tgqh-krizzyinfinity.vercel.app/",
     },
     {
       id: 3,
