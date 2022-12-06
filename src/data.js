@@ -15,7 +15,7 @@ export const products = [
     {
       id: 2,
       img: Zlata,
-      link: "https://zlata-fast-food-order-for-pickup-mr3tavgwo-krizzyinfinity.vercel.app/",
+      link: "https://zlata-fast-food-order-for-pickup-px3rfiovk-krizzyinfinity.vercel.app/",
     },
     {
       id: 3,
