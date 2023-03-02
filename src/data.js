@@ -10,7 +10,7 @@ export const products = [
     {
       id: 1,
       img: Img5,
-      link: "https://panorama-ruza-apartments.netlify.app/",
+      link: "https://apartmentsruza.com",
     },
     {
       id: 2,
@@ -20,7 +20,7 @@ export const products = [
     {
       id: 3,
       img: NaturaInsula,
-      link: "https://natura-insula-fo2g0tgqh-krizzyinfinity.vercel.app/",
+      link: "https://naturainsula.com",
     },
     {
       id: 4,
