@@ -5,7 +5,7 @@ import Img8 from "../src/img/screenshot4.png"
 import Zlata from "../src/img/Zlata.png"
 import NaturaInsula from "../src/img/naturaInsula.png"
 import Img10 from "../src/img/screenshot6.png"
-import Dekoracije from "../src/img/dekoracije.png"
+import Quaesta from "../src/img/Quaesta.png"
 export const products = [
     {
       id: 1,
@@ -24,8 +24,8 @@ export const products = [
     },
     {
       id: 4,
-      img: Dekoracije,
-      link: "https://martina-dekoracije-8gogusxyy-krizzyinfinity.vercel.app/",
+      img: Quaesta,
+      link: "https://quaesta.org",
     },
     {
       id: 5,
