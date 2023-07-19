@@ -33,10 +33,9 @@ export const About = () => {
            <p className='about-subtitle'>I am a former personal trainer and a property manager who
     found her dream profession in web development</p>
     <p className='about-description'>Just starting my software development 
-    journey. Although I hold a BSc in Computer science I am focused on 
-    front-end development and after gaining enough experience want to progress into
-    back-end as well. Love creating user interfaces and also enjoy working on the logic.
-    My skills are: HTML, CSS, JavaScript, React/Redux, MongoDB, SQL,
+    journey. I hold a BSc (honours) in Computer science (software) and am focused on both 
+    front-end and back-end development as well as mobile app development with React Native. Love creating user interfaces and also enjoy working on the logic.
+    My skills are: HTML, CSS, JavaScript, React, React Native, MongoDB, SQL,
     Python/Pandas, Java, RESTful APIs, cloud technologies, git/github.
     Constantly developing new skills and taking new  web development courses</p>
          </div>

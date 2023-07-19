@@ -10,10 +10,11 @@ export const Main = () => {
 
       <div className='main-left-wrapper'>
         <h2 className='main-intro'>Hello my name is Kristina</h2>
-        <h1 className='main-name'>Front-end React developer</h1>
+        <h1 className='main-name'>Software developer</h1>
       <div className='main-title'>
         <div className='main-title-wrapper'>
           <div className='item'> React developer</div>
+          <div className='item'> React Native developer</div>
           <div className='item'> MERN developer</div>
           <div className='item'> Cloud technology</div>
           <div className='item'> RESTful API</div>

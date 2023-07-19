@@ -6,6 +6,7 @@ import Zlata from "../src/img/Zlata.png"
 import NaturaInsula from "../src/img/naturaInsula.png"
 import Img10 from "../src/img/screenshot6.png"
 import Quaesta from "../src/img/Quaesta.png"
+import Quaesta2 from "../src/img/q.png"
 export const products = [
     {
       id: 1,
@@ -29,22 +30,28 @@ export const products = [
     },
     {
       id: 5,
+      img: Quaesta2,
+      link: "https://play.google.com/store/apps/details?id=com.krizzy.quaestaapp",
+    },
+   
+    {
+      id: 6,
       img: Img6,
       link: "https://react-movie1.netlify.app/",
     },
     {
-      id: 6,
+      id: 7,
       img: Img7,
       link: "https://my-travel-buddy.netlify.app/",
     },
     {
-      id: 7,
+      id: 8,
       img: Img8,
       link: "https://fitness-world-13.netlify.app/",
     },
     
     {
-      id: 8,
+      id: 9,
       img: Img10,
       link: "https://real-estate-world-h20kfo0rm-krizzyinfinity.vercel.app/",
     },
